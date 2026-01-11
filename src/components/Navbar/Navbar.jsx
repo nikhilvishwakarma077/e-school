@@ -35,7 +35,7 @@ const Navbar = () => {
                             })}
                         </ul>
                     </div>
-                    <div className=" lg:block space-x-6">
+                    <div className="hidden md:block space-x-6">
                         <button className="font-semibold cursor-pointer">Sign in</button>
                         <button className="text-white bg-blue-600 cursor-pointer font-semibold rounded-full px-6 py-2 ">
                             Register

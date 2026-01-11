@@ -18,6 +18,12 @@ const ResponsiveMenu = ({ isOpen }) => {
                             <li>About</li>
                             <li>Service</li>
                             <li>Contact</li>
+
+                            <button className="font-semibold cursor-pointer">Sign in</button>
+                            <button className="text-white bg-blue-600 cursor-pointer font-semibold rounded-full px-6 py-2 ">
+                                Register
+                            </button>
+
                         </ul>
                     </div>
                 </motion.div>
